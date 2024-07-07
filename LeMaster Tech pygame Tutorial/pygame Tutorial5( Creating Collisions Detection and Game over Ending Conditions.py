@@ -43,13 +43,13 @@ def game_over():
 
 def check_collision(playerx,playery,ballx,bally):
     if abs(playerx-ballx)<45 and abs(playery-bally)<55:      # player width/2(15)+ radius (30)=45  whilst player height/2(25)+radius(30))=55
-        global player_x_direction
-        global player_y_direction
-        global circle_x_direction
-        global circle_y_direction
-        player_x_direction=0
-        player_y_direction=0
-        circle_x_direction=0
+        global player_x_direction                            # The reason why it is 'and' is because it needs to overlap in both x and y axis for their to be a collision                   
+        global player_y_direction                            # 45 is the width of the player and ball added together hence if playerx-ballx is greater than 45 it would not overlap 
+        global circle_x_direction                            # For example if playerx=50x    whilst ballx=150x     50-150x= -100 but then abs convert it to 100 
+        global circle_y_direction                            #  since 100 is greater than 45 , it will not collide even if playery-bally is lower than 55.     
+        player_x_direction=0                                 #  Another word if the gap between player and ball x axis is less than 45 
+        player_y_direction=0                                 # and the gap between player and ball y is less than 55, it will collide  
+        circle_x_direction=0                                 # Don't forget abs 'absolute value' will turn - to +  since it can collide on either side. 
         circle_y_direction=0
         game_over()
 
