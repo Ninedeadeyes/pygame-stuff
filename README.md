@@ -13,4 +13,4 @@ The ultimate introduction to Pygame
 
 https://www.youtube.com/watch?v=AY9MnQ4x3zk&t=306s
 
-To be honest the only one you really need is 'The ultimate introduction to Pygame'. If I had to start over again I would have started and finished with that Tutorial. 
+To be honest the only one you really need is 'The ultimate introduction to Pygame'. If I had to start over again I would have started and finished with that tutorial. 
