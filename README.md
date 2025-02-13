@@ -1,7 +1,7 @@
 
-3 pygame tutorials completed   ( 10 mins ) 
+3 pygame tutorials completed  
 
-Get Started in Pygame in 10 minutes!
+Get Started in Pygame in 10 minutes! ( 10 mins ) 
 
 https://www.youtube.com/watch?v=y9VG3Pztok8&list=PLjcN1EyupaQmZw8C-q6a4Zekidxf8SUj3&index=11
 
